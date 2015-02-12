@@ -42,8 +42,8 @@ public class Jedit
       {
          try
          {
-            System.out.println("Le fichier "+NomFichier+" existe deja");
-            System.out.println("Voulez-vous le remplacer?  O(oui) N(non)");
+            System.out.println("Le fichier \""+NomFichier+"\" existe deja.");
+            System.out.println("Voulez-vous le remplacer? O(oui) N(non)");
             String Reponse = reader.readLine();
             if (Reponse .equals("N") || Reponse.equals("n"))
             {
